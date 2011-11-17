@@ -53,7 +53,7 @@ class Pg2Php
         {
             return array();
         }
-        else
+        // else // You just returned, so no need...
         {
             $matches = array();
             if ( preg_match('/^{(.*)}$/', $pgArray, $matches) > 0 )
